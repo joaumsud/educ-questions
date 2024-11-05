@@ -1,0 +1,102 @@
+:root{
+    --color-primary-black: #1e1e1e;
+    --color-primary-blue: #282EFC;
+    --color-secundary-blue:#80abf4;
+    --color-primary-grey:#a4a5a6;
+
+}
+
+.navbar{
+    background: var(--color-primary-black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    height: 35px;
+    z-index: 11;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-family: "Quicksand", sans-serif;
+}
+
+.navbar__logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.navbar__icon{
+    width: 35px;
+    height: 30px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    margin-left: 10px;
+}
+.navbar__name{
+    font-size: 10px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.navbar__links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.navbar__talk {
+    list-style-type: none;
+    font-size: 10px;
+    display: flex;
+    align-items: left; 
+    justify-content: left;
+}
+
+.navbar__talk a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.navbar__talk a:hover{
+    color: #b8a6e9;
+}
+
+.navbar__buttons{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.navbar__button {
+    font-size: 10px;
+    padding: 0 8px 0 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+.navbar__button__join{
+    background-color: var(--color-primary-blue);
+    color: white;
+}
+
+.navbar__button__join:hover{
+    background-color: var(--color-secundary-blue);
+    cursor: pointer;
+}
+
+.navbar__button__login{
+    background-color: white;
+    color: var(--color-primary-black);
+}
+
+.navbar__button__login:hover{
+    background-color: var(--color-primary-grey);
+    cursor: pointer;
+}
+
+
