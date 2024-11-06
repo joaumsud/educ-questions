@@ -12,7 +12,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 10px;
-    height: 25px;
+    height: 50px;
     z-index: 11;
     position: fixed;
     top: 0;
@@ -22,20 +22,16 @@
 }
 
 .navbar__logo{
+    width: auto;
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
-.navbar__icon{
-    width: 35px;
-    height: 30px;
-    border-radius: 15px;
-    box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-    margin-left: 10px;
-}
+
 .navbar__name{
-    font-size: 10px;
+    width: auto;
+    font-size: 20px;
     color: #fff;
     margin-left: 10px;
 }
@@ -50,7 +46,8 @@
 
 .navbar__talk {
     list-style-type: none;
-    font-size: 10px;
+    width: auto;
+    font-size: 20px;
     display: flex;
     align-items: left; 
     justify-content: left;
@@ -73,7 +70,8 @@
 }
 
 .navbar__button {
-    font-size: 10px;
+    width: auto;
+    font-size: 20px;
     padding: 0 8px 0 8px;
     border: none;
     border-radius: 5px;

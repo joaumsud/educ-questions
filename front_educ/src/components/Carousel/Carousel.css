@@ -1,5 +1,5 @@
 .carousel{
-    position: relative;
+    position: static;
     width: 25%;
 }
 
