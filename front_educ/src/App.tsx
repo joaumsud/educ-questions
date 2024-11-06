@@ -1,10 +1,20 @@
 import React from 'react';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar/Navbar';
+import Home from './pages/Home';
+import Carousel from './components/Carousel/Carousel';
 
-function App() {
+const  App: React.FC = ()=> {
+
+  const images = [
+      'img/professor.png',
+      'img/professor01.png',
+      'img/professora.jpg',
+  ];
   return (
     <>
-      <Navbar />
+      <Navbar/>
+      <Home/>
+      <Carousel images={images} />
     </>
   );
 }
